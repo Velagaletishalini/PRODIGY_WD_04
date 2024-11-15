@@ -1,0 +1,86 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styling */
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #6a11cb, #2575fc);
+    color: #fff;
+    text-align: center;
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .headline {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .skills-summary {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 50px 0;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #2575fc;
+  }
+  
+  .project {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+  }
+  
+  /* Contact Form Styling */
+  form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #2575fc;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #6a11cb;
+  }
+  
